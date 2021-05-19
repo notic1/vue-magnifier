@@ -127,7 +127,7 @@ export default {
     mounted() {
         this.$nextTick(function () {
             this.$refs.magnificationElement.addEventListener(
-                'mousemove',
+                'touchmove',
                 this.moveMagnifier,
             );
         });
